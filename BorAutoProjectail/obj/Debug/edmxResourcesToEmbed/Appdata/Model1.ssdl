@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище BorAutoBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cars">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="mark" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="model" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="year" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="cost" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="clients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="dillers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="salary" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sells">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id_client" Type="int" Nullable="false" />
+    <Property Name="id_diller" Type="int" Nullable="false" />
+    <Property Name="id_car" Type="int" Nullable="false" />
+    <Property Name="date_sell" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="role" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__sells__id_car__3E52440B">
+    <End Role="cars" Type="Self.cars" Multiplicity="1" />
+    <End Role="sells" Type="Self.sells" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cars">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sells">
+        <PropertyRef Name="id_car" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sells__id_client__3D5E1FD2">
+    <End Role="clients" Type="Self.clients" Multiplicity="1" />
+    <End Role="sells" Type="Self.sells" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sells">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sells__id_diller__3C69FB99">
+    <End Role="dillers" Type="Self.dillers" Multiplicity="1" />
+    <End Role="sells" Type="Self.sells" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dillers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sells">
+        <PropertyRef Name="id_diller" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище BorAutoBaseModelContainer">
+    <EntitySet Name="cars" EntityType="Self.cars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="clients" EntityType="Self.clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dillers" EntityType="Self.dillers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sells" EntityType="Self.sells" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__sells__id_car__3E52440B" Association="Self.FK__sells__id_car__3E52440B">
+      <End Role="cars" EntitySet="cars" />
+      <End Role="sells" EntitySet="sells" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sells__id_client__3D5E1FD2" Association="Self.FK__sells__id_client__3D5E1FD2">
+      <End Role="clients" EntitySet="clients" />
+      <End Role="sells" EntitySet="sells" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sells__id_diller__3C69FB99" Association="Self.FK__sells__id_diller__3C69FB99">
+      <End Role="dillers" EntitySet="dillers" />
+      <End Role="sells" EntitySet="sells" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

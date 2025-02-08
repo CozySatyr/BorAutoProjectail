@@ -1,0 +1,14 @@
+﻿<Window x:Class="BorAutoProjectail.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BorAutoProjectail"
+        mc:Ignorable="d"
+        Title="НАЙК ПРО" Height="550" Width="837" MinHeight="550" MaxHeight="500" MaxWidth="837" MinWidth="837" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True"  Background="Transparent">
+    <Grid>
+        <Border Width="auto" Height="auto"  Background="GhostWhite" BorderBrush="#395984" BorderThickness="1" CornerRadius="0,0,20,20"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

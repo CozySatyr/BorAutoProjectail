@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище BorAutoBaseModelContainer" CdmEntityContainer="BorAutoBaseEntities">
+    <EntitySetMapping Name="cars">
+      <EntityTypeMapping TypeName="BorAutoBaseModel.cars">
+        <MappingFragment StoreEntitySet="cars">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mark" ColumnName="mark" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clients">
+      <EntityTypeMapping TypeName="BorAutoBaseModel.clients">
+        <MappingFragment StoreEntitySet="clients">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dillers">
+      <EntityTypeMapping TypeName="BorAutoBaseModel.dillers">
+        <MappingFragment StoreEntitySet="dillers">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sells">
+      <EntityTypeMapping TypeName="BorAutoBaseModel.sells">
+        <MappingFragment StoreEntitySet="sells">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_client" ColumnName="id_client" />
+          <ScalarProperty Name="id_diller" ColumnName="id_diller" />
+          <ScalarProperty Name="id_car" ColumnName="id_car" />
+          <ScalarProperty Name="date_sell" ColumnName="date_sell" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="BorAutoBaseModel.users">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

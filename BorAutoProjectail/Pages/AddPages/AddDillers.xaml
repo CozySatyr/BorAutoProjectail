@@ -1,0 +1,30 @@
+﻿<Page x:Class="BorAutoProjectail.Pages.AddPages.AddDillers"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BorAutoProjectail.Pages.AddPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddDillers">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Grid.Column="0">
+                <TextBox HorizontalAlignment="Center" Text="{Binding id}" Height="20" Width="150" Margin="5"/>
+                <TextBox HorizontalAlignment="Center" Text="{Binding name}" Height="20" Width="150" Margin="5"/>
+                <TextBox HorizontalAlignment="Center" Text="{Binding phone_number}" Height="20" Width="150" Margin="5"/>
+                <TextBox HorizontalAlignment="Center" Text="{Binding salary}" Height="20" Width="150" Margin="5"/>
+                <Button x:Name="btnAdd" Content="Добавить / Изменить" Height="20" Width="150" Margin="5" Click="btnAdd_Click"/>
+                <Button x:Name="Btn_Back" Background="IndianRed" Content="Назад" Height="20" Margin="5" Grid.Row="1" Width="150" Click="Btn_Back_Click" Foreground="White"/>
+
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock Text="ID" Height="20" Margin="5"/>
+                <TextBlock Text="Фио" Height="20" Margin="5"/>
+                <TextBlock Text="Номер телефона" Height="20" Margin="5"/>
+                <TextBlock Text="Зар. плата" Height="20" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

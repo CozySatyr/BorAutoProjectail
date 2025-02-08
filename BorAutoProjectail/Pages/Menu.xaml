@@ -1,0 +1,92 @@
+﻿<Page x:Class="BorAutoProjectail.Pages.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BorAutoProjectail.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Menu">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Pages/i.png"/>
+        </Grid.Background>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="sellsBtn" Content="Продажи" Width="150" Height="25" Margin="5" Click="sellsBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="carsBtn" Content="Автомобили" Width="150" Height="25" Margin="5" Click="carsBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="dillersBtn" Content="Диллеры" Width="150" Height="25" Margin="5" Click="dillersBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="clientsGridBtn" Content="Клиенты" Width="150" Height="25" Margin="5" Click="clientsGridBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="usersGridBtn" Content="Пользователи" Width="150" Height="25" Margin="5" Click="usersGridBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="sellsOtchBtn" Foreground="White" Background="MediumPurple" Content="Сформировать отчет" Width="150" Height="25" Margin="5" Click="sellsOtchBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="carsOtchBtn" Foreground="White" Background="MediumPurple"   Content="Сформировать отчет" Width="150" Height="25" Margin="5" Click="carsOtchBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="dillersOtchBtn" Foreground="White" Background="MediumPurple"  Content="Сформировать отчет" Width="150" Height="25" Margin="5" Click="dillersOtchBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="clientsGridOtchBtn" Foreground="White" Background="MediumPurple"  Content="Сформировать отчет" Width="150" Height="25" Margin="5" Click="clientsGridOtchBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="usersGridOtchBtn" Foreground="White" Background="MediumPurple"  Content="Сформировать отчет" Width="150" Height="25" Margin="5" Click="usersGridOtchBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

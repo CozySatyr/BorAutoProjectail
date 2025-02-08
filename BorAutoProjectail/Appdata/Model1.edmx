@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище BorAutoBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="cars">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="mark" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="model" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="year" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="cost" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="clients">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dillers">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="phone_number" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="salary" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sells">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="id_client" Type="int" Nullable="false" />
+          <Property Name="id_diller" Type="int" Nullable="false" />
+          <Property Name="id_car" Type="int" Nullable="false" />
+          <Property Name="date_sell" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="role" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__sells__id_car__3E52440B">
+          <End Role="cars" Type="Self.cars" Multiplicity="1" />
+          <End Role="sells" Type="Self.sells" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cars">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sells">
+              <PropertyRef Name="id_car" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__sells__id_client__3D5E1FD2">
+          <End Role="clients" Type="Self.clients" Multiplicity="1" />
+          <End Role="sells" Type="Self.sells" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="clients">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sells">
+              <PropertyRef Name="id_client" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__sells__id_diller__3C69FB99">
+          <End Role="dillers" Type="Self.dillers" Multiplicity="1" />
+          <End Role="sells" Type="Self.sells" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dillers">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sells">
+              <PropertyRef Name="id_diller" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище BorAutoBaseModelContainer">
+          <EntitySet Name="cars" EntityType="Self.cars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="clients" EntityType="Self.clients" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dillers" EntityType="Self.dillers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sells" EntityType="Self.sells" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__sells__id_car__3E52440B" Association="Self.FK__sells__id_car__3E52440B">
+            <End Role="cars" EntitySet="cars" />
+            <End Role="sells" EntitySet="sells" />
+          </AssociationSet>
+          <AssociationSet Name="FK__sells__id_client__3D5E1FD2" Association="Self.FK__sells__id_client__3D5E1FD2">
+            <End Role="clients" EntitySet="clients" />
+            <End Role="sells" EntitySet="sells" />
+          </AssociationSet>
+          <AssociationSet Name="FK__sells__id_diller__3C69FB99" Association="Self.FK__sells__id_diller__3C69FB99">
+            <End Role="dillers" EntitySet="dillers" />
+            <End Role="sells" EntitySet="sells" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BorAutoBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="cars">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="mark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="year" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="cost" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+          <NavigationProperty Name="sells" Relationship="Self.FK__sells__id_car__3E52440B" FromRole="cars" ToRole="sells" />
+        </EntityType>
+        <EntityType Name="clients">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phone_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="sells" Relationship="Self.FK__sells__id_client__3D5E1FD2" FromRole="clients" ToRole="sells" />
+        </EntityType>
+        <EntityType Name="dillers">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phone_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="salary" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="sells" Relationship="Self.FK__sells__id_diller__3C69FB99" FromRole="dillers" ToRole="sells" />
+        </EntityType>
+        <EntityType Name="sells">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="id_client" Type="Int32" Nullable="false" />
+          <Property Name="id_diller" Type="Int32" Nullable="false" />
+          <Property Name="id_car" Type="Int32" Nullable="false" />
+          <Property Name="date_sell" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="cars" Relationship="Self.FK__sells__id_car__3E52440B" FromRole="sells" ToRole="cars" />
+          <NavigationProperty Name="clients" Relationship="Self.FK__sells__id_client__3D5E1FD2" FromRole="sells" ToRole="clients" />
+          <NavigationProperty Name="dillers" Relationship="Self.FK__sells__id_diller__3C69FB99" FromRole="sells" ToRole="dillers" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__sells__id_car__3E52440B">
+          <End Role="cars" Type="Self.cars" Multiplicity="1" />
+          <End Role="sells" Type="Self.sells" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cars">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sells">
+              <PropertyRef Name="id_car" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__sells__id_client__3D5E1FD2">
+          <End Role="clients" Type="Self.clients" Multiplicity="1" />
+          <End Role="sells" Type="Self.sells" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="clients">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sells">
+              <PropertyRef Name="id_client" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__sells__id_diller__3C69FB99">
+          <End Role="dillers" Type="Self.dillers" Multiplicity="1" />
+          <End Role="sells" Type="Self.sells" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dillers">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="sells">
+              <PropertyRef Name="id_diller" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BorAutoBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="cars" EntityType="Self.cars" />
+          <EntitySet Name="clients" EntityType="Self.clients" />
+          <EntitySet Name="dillers" EntityType="Self.dillers" />
+          <EntitySet Name="sells" EntityType="Self.sells" />
+          <EntitySet Name="users" EntityType="Self.users" />
+          <AssociationSet Name="FK__sells__id_car__3E52440B" Association="Self.FK__sells__id_car__3E52440B">
+            <End Role="cars" EntitySet="cars" />
+            <End Role="sells" EntitySet="sells" />
+          </AssociationSet>
+          <AssociationSet Name="FK__sells__id_client__3D5E1FD2" Association="Self.FK__sells__id_client__3D5E1FD2">
+            <End Role="clients" EntitySet="clients" />
+            <End Role="sells" EntitySet="sells" />
+          </AssociationSet>
+          <AssociationSet Name="FK__sells__id_diller__3C69FB99" Association="Self.FK__sells__id_diller__3C69FB99">
+            <End Role="dillers" EntitySet="dillers" />
+            <End Role="sells" EntitySet="sells" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище BorAutoBaseModelContainer" CdmEntityContainer="BorAutoBaseEntities">
+          <EntitySetMapping Name="cars">
+            <EntityTypeMapping TypeName="BorAutoBaseModel.cars">
+              <MappingFragment StoreEntitySet="cars">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="mark" ColumnName="mark" />
+                <ScalarProperty Name="model" ColumnName="model" />
+                <ScalarProperty Name="year" ColumnName="year" />
+                <ScalarProperty Name="cost" ColumnName="cost" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="clients">
+            <EntityTypeMapping TypeName="BorAutoBaseModel.clients">
+              <MappingFragment StoreEntitySet="clients">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dillers">
+            <EntityTypeMapping TypeName="BorAutoBaseModel.dillers">
+              <MappingFragment StoreEntitySet="dillers">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+                <ScalarProperty Name="salary" ColumnName="salary" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sells">
+            <EntityTypeMapping TypeName="BorAutoBaseModel.sells">
+              <MappingFragment StoreEntitySet="sells">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_client" ColumnName="id_client" />
+                <ScalarProperty Name="id_diller" ColumnName="id_diller" />
+                <ScalarProperty Name="id_car" ColumnName="id_car" />
+                <ScalarProperty Name="date_sell" ColumnName="date_sell" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="BorAutoBaseModel.users">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="role" ColumnName="role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

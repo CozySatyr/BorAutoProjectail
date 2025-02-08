@@ -1,0 +1,249 @@
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe.config
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.pdb
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.AssemblyReference.cache
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\App.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.cache
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.lref
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.g.resources
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.Properties.Resources.resources
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.GenerateResource.cache
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CoreCompileInputs.cache
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.exe
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.pdb
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase.mdf
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase_log.ldf
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.dll
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.xml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_Content.g.cs
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.baml
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoP.EA769788.Up2Date
+C:\Users\berdn\source\repos\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase.mdf
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase_log.ldf
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe.config
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.pdb
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\App.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_Content.g.cs
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.cache
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.lref
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.baml
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.g.resources
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.Properties.Resources.resources
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.GenerateResource.cache
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CopyComplete
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.exe
+C:\Users\1\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.pdb
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\App.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_Content.g.cs
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.cache
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.lref
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.exe
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.pdb
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase.mdf
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase_log.ldf
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe.config
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.pdb
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.dll
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.xml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.baml
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.g.resources
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.Properties.Resources.resources
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.GenerateResource.cache
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CopyComplete
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase.mdf
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase_log.ldf
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe.config
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.pdb
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.dll
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.dll
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.xml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.xml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.resources.dll
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.AssemblyReference.cache
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.SuggestedBindingRedirects.cache
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\App.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_Content.g.cs
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.cache
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.lref
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.baml
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.g.resources
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.Properties.Resources.resources
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.GenerateResource.cache
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CoreCompileInputs.cache
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CopyComplete
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.exe
+E:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.pdb
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase.mdf
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoBase_log.ldf
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe.config
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.exe
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\BorAutoProjectail.pdb
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.dll
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.dll
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.xml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\EntityFramework.SqlServer.xml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.resources.dll
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.AssemblyReference.cache
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.SuggestedBindingRedirects.cache
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\App.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_Content.g.cs
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.cache
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail_MarkupCompile.lref
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\MainWindow.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddCars.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddClients.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddDillers.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddSells.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\AddPages\AddUsers.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Cars.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Clients.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Dillers.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Sells.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\GridPages\Users.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Login.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\Pages\Menu.baml
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.g.resources
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.Properties.Resources.resources
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.GenerateResource.cache
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CoreCompileInputs.cache
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.csproj.CopyComplete
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.exe
+D:\УП 04.01 2025\BorAutoProjectail\BorAutoProjectail\obj\Debug\BorAutoProjectail.pdb

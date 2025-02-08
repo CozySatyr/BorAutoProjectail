@@ -1,0 +1,50 @@
+﻿<Page x:Class="BorAutoProjectail.Pages.GridPages.Cars"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BorAutoProjectail.Pages.GridPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Cars" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="myDG" Grid.Column="1" HorizontalContentAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" Margin="5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="1*" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Марка" Width="2*" Binding="{Binding mark}"/>
+                <DataGridTextColumn Header="Модель" Width="3*" Binding="{Binding model}"/>
+                <DataGridTextColumn Header="Год" Width="3*" Binding="{Binding year}"/>
+                <DataGridTextColumn Header="Стоимость" Width="3*" Binding="{Binding cost}"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="Btn_Edit" Content="Изменить" Margin="5" Height="30" Width="150" Click="Btn_Edit_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Vertical" Grid.Column="0">
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="Btn_Add" Content="Добавить" HorizontalAlignment="Center" Height="32" Margin="5" VerticalAlignment="Center" Width="150" Click="Btn_Add_Click"/>
+                <Button x:Name="Btn_Ref" Content="Обновить" HorizontalAlignment="Center" Height="32" Margin="5" VerticalAlignment="Center" Width="150" Click="Btn_Ref_Click"/>
+                <Button x:Name="Btn_Del" Content="Удалить" HorizontalAlignment="Center" Height="32" Margin="5" VerticalAlignment="Center" Width="150" Click="Btn_Del_Click"/>
+                <ComboBox x:Name="typeOfSearch" Height="32" Margin="5" VerticalAlignment="Center" Width="150">
+                    <ComboBoxItem Content="Поиск по ID:"/>
+                    <ComboBoxItem Content="Поиск по Имени:"/>
+                    <ComboBoxItem Content="Поиск по Должности:"/>
+                    <ComboBoxItem Content="Поиск по Зар. плате:"/>
+                </ComboBox>
+                <TextBox Name="searchBox" Height="32" Margin="5" Grid.Row="1" VerticalAlignment="Center" Width="150" TextChanged="TextBox_TextChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+                <Button x:Name="Btn_Back" Background="IndianRed" Content="Назад" Height="32" Margin="5,200,5,5" Grid.Row="1" Width="150" Click="Btn_Back_Click" Foreground="White"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
